@@ -1,0 +1,273 @@
+/**---전 항목 공통---**/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+}
+section{
+    z-index: 1;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+/**---네비게이션---**/
+.nav_1{
+    width: 430px;
+    height: 89px;
+    position: absolute;
+}
+.pronav{
+    margin-top: 55px;
+    margin-left: 340px;
+    position: fixed;
+    z-index: 10;
+}
+.mainnav{
+    margin-top: 55px;
+    position: fixed;
+    z-index: 10;
+}
+.prev{position: fixed; margin-top: 55px; z-index: 10;}
+.works{position: fixed; margin-top: 55px; margin-left: 153px; z-index: 10;}
+.next{position: fixed; margin-top: 55px; margin-left: 340px; z-index: 10;}
+
+/**---인트로---**/
+.in_bg{
+    background-image: url(mimg/inbg.png);
+}
+.in_wrap{
+    width: 430px;
+    height: 932px;
+}
+.incon_1{position: absolute; margin-top: 67px; margin-left: 300px;}
+.inlogo{position: absolute; margin-top: 376px; margin-left: 34px;}
+.inin{position: absolute; margin-top: 661px; margin-left: 148px;}
+.incon_2{position: absolute; margin-top: 849px; margin-left: 139px;}
+
+/**---프로필---**/
+.pro_wrap{
+    width: 430px;
+    height: 1425px;
+}
+.procon_1{position: absolute; margin-top: 49px; margin-left: 166px;}
+.procon_2{position: absolute; margin-top: 116px; margin-left: 61px;}
+.procon_3{position: absolute; margin-top: 441px; margin-left: 61px;}
+.procon_4{position: absolute; margin-top: 563px; margin-left: 61px;}
+.procon_5{position: absolute; margin-top: 659px; margin-left: 61px;}
+.procon_6{position: absolute; margin-top: 784px; margin-left: 61px;}
+.procon_7{position: absolute; margin-top: 937px; margin-left: 61px;}
+.procon_8{position: absolute; margin-top: 1123px; margin-left: 61px;}
+.procon_9{position: absolute; margin-top: 1218px; margin-left: 61px;}
+.procon_10{position: absolute; margin-top: 1330px; margin-left: 146px;}
+
+
+/**---메인---**/
+.maincon_1{width: 430px; height: 430px; z-index: 2;}
+.maincon_2{width: 430px; height: 430px;}
+.maincon_3{width: 430px; height: 430px;}
+.maincon_4{width: 430px; height: 430px;}
+.maincon_5{width: 430px; height: 430px;}
+.maincon_6{width: 430px; height: 430px;}
+.maincon_7{width: 430px; height: 430px;}
+.maincon_8{width: 430px; height: 430px;}
+.maincon_9{width: 430px; height: 430px;}
+.black{
+    width: 430px;
+    height: 1425px;
+    position: absolute;
+    z-index: 5;
+}
+.black_1{
+    width: 430px;
+    height: 430px;
+    background-color: #000000;
+    opacity: 0.5;
+    transition-duration: 0.4s;
+}
+.black_1:hover{
+    width: 430px;
+    height: 430px;
+    background-color: #000000;
+    opacity: 0.1;
+    transition-duration: 0.4s;
+}
+.maintx_1{position:absolute; margin-top: 158px; z-index: 6;}
+.maintx_2{position:absolute; margin-top: 589px; z-index: 6;}
+.maintx_3{position:absolute; margin-top: 1019px; z-index: 6;}
+.maintx_4{position:absolute; margin-top: 1448px; z-index: 6;}
+.maintx_5{position:absolute; margin-top: 1877px; z-index: 6;}
+.maintx_6{position:absolute; margin-top: 2310px; z-index: 6;}
+.maintx_7{position:absolute; margin-top: 2741px; z-index: 6;}
+.maintx_8{position:absolute; margin-top: 3171px; z-index: 6;}
+.maintx_9{position:absolute; margin-top: 3598px; z-index: 6;}
+
+
+/**---서브 1---**/
+.sub1_wrap{width: 430px; height: 2854px;}
+
+.sub_1{position: absolute;}
+
+.sub_1_1{position: absolute; margin-top: 328px; margin-left: 82px;}
+.sub_1_2{position: absolute; margin-top: 425px; margin-left: px;}
+
+/**---서브 2---**/
+.sub2_wrap{width: 430px; height: 2373px;}
+
+.sub_2{position: absolute;}
+
+.sub_2_1{position: absolute; margin-top: 341px; margin-left: 156px;}
+.sub_2_2{position: absolute; margin-top: 433px; margin-left: px;}
+.sub_2_3{position: absolute; margin-top: 878px; margin-left: 59px;}
+.sub_2_4{position: absolute; margin-top: 952px; margin-left: 15px;}
+.sub_2_5{position: absolute; margin-top: 1445px; margin-left: 82px;}
+.sub_2_6{position: absolute; margin-top: 1519px; margin-left: 15px;}
+.sub_2_7{position: absolute; margin-top: 2012px; margin-left: 39px;}
+.sub_2_8{position: absolute; margin-top: 2086px; margin-left: 15px;}
+
+/**---서브 3---**/
+.sub3_wrap{width: 430px; height: 2749px;}
+
+.sub_3{position: absolute;}
+
+.sub_3_1{position: absolute; margin-top: 329px; margin-left: 121px;}
+.sub_3_2{position: absolute; margin-top: 415px; margin-left: 57px;}
+.sub_3_3{position: absolute; margin-top: 558px; margin-left: 235px;}
+.sub_3_4{position: absolute; margin-top: 687px; margin-left: 15px;}
+.sub_3_5{position: absolute; margin-top: 945px; margin-left: 119px;}
+.sub_3_6{position: absolute; margin-top: 1036px; margin-left: 15px;}
+.sub_3_7{position: absolute; margin-top: 1252px; margin-left: 100px;}
+.sub_3_8{position: absolute; margin-top: 1343px; margin-left: 39px;}
+.sub_3_9{position: absolute; margin-top: 1448px; margin-left: 15px;}
+.sub_3_10{position: absolute; margin-top: 1701px; margin-left: 84px;}
+.sub_3_11{position: absolute; margin-top: 1806px; margin-left: 15px;}
+.sub_3_12{position: absolute; margin-top: 2059px; margin-left: 59px;}
+.sub_3_13{position: absolute; margin-top: 2143px; margin-left: 15px;}
+.sub_3_14{position: absolute; margin-top: 2396px; margin-left: 67px;}
+.sub_3_15{position: absolute; margin-top: 2501px; margin-left: 15px;}
+
+/**---서브 4---**/
+.sub4_wrap{width: 430px; height: 3096px;}
+
+.sub_4{position: absolute;}
+
+.sub_4_1{position: absolute; margin-top: 329px; margin-left: 121px;}
+.sub_4_2{position: absolute; margin-top: 453.39px; margin-left: 26.44px;}
+.sub_4_3{position: absolute; margin-top: 558px; margin-left: 126px;}
+.sub_4_4{position: absolute; margin-top: 687px; margin-left: 15px;}
+.sub_4_5{position: absolute; margin-top: 945px; margin-left: 133px;}
+.sub_4_6{position: absolute; margin-top: 1037px; margin-left: 15px;}
+.sub_4_7{position: absolute; margin-top: 1252px; margin-left: 113px;}
+.sub_4_8{position: absolute; margin-top: 1344px; margin-left: 15px;}
+.sub_4_9{position: absolute; margin-top: 1608px; margin-left: 100px;}
+.sub_4_10{position: absolute; margin-top: 1722px; margin-left: 155px;}
+.sub_4_11{position: absolute; margin-top: 1806px; margin-left: 15px;}
+.sub_4_12{position: absolute; margin-top: 2060px; margin-left: 145px;}
+.sub_4_13{position: absolute; margin-top: 2144px; margin-left: 15px;}
+.sub_4_14{position: absolute; margin-top: 2398px; margin-left: 145px;}
+.sub_4_15{position: absolute; margin-top: 2482px; margin-left: 15px;}
+.sub_4_16{position: absolute; margin-top: 2758px; margin-left: 145px;}
+.sub_4_17{position: absolute; margin-top: 2842px; margin-left: 15px;}
+
+/**---서브 5---**/
+.sub5_wrap{width: 430px; height: 3630px;}
+
+.sub_5{position: absolute;}
+
+.sub_5_1{position: absolute; margin-top: 447px; margin-left: 25px;}
+.sub_5_2{position: absolute; margin-top: 567px; margin-left: 110px;}
+.sub_5_3{position: absolute; margin-top: 803px; margin-left: 48px;}
+.sub_5_4{position: absolute; margin-top: 952px; margin-left: 16px;}
+.sub_5_5{position: absolute; margin-top: 1378px; margin-left: 76px;}
+.sub_5_6{position: absolute; margin-top: 1546px; margin-left: 15px;}
+.sub_5_7{position: absolute; margin-top: 2525px; margin-left: 107px;}
+.sub_5_8{position: absolute; margin-top: 2617px; margin-left: 15px;}
+.sub_5_9{position: absolute; margin-top: 2993px; margin-left: 119px;}
+.sub_5_10{position: absolute; margin-top: 3085px; margin-left: 15px;}
+.sub_5_11{position: absolute; margin-top: 3545px; margin-left: 118px;}
+
+/**---서브 6---**/
+.sub6_wrap{width: 430px; height: 4898px;}
+
+.sub_6{position: absolute;}
+.sub_61{position: absolute; margin-top: 146px; margin-left: 46px;}
+
+.sub_6_1{position: absolute; margin-top: 426px; margin-left: 15.5px;}
+.sub_6_2{position: absolute; margin-top: 492.22px; margin-left: 40px;}
+.sub_6_3{position: absolute; margin-top: 602px; margin-left: 47px;}
+.sub_6_4{position: absolute; margin-top: 695px; margin-left: 61px;}
+.sub_6_5{position: absolute; margin-top: 819px; margin-left: px;}
+.sub_6_6{position: absolute; margin-top: 929px; margin-left: 15px;}
+.sub_6_7{position: absolute; margin-top: 1195px; margin-left: 15.5px;}
+.sub_6_8{position: absolute; margin-top: 1272px; margin-left: 48px;}
+.sub_6_9{position: absolute; margin-top: 1893px; margin-left: 48px;}
+.sub_6_10{position: absolute; margin-top: 2514px; margin-left: 48px;}
+.sub_6_11{position: absolute; margin-top: 3145px; margin-left: 151px;}
+.sub_6_12{position: absolute; margin-top: 3180px; margin-left: 17px;}
+.sub_6_13{position: absolute; margin-top: 3486px; margin-left: 88px;}
+.sub_6_14{position: absolute; margin-top: 3569px; margin-left: 175px;}
+.sub_6_15{position: absolute; margin-top: 3598px; margin-left: 16px;}
+.sub_6_16{position: absolute; margin-top: 3900px; margin-left: 16px;}
+.sub_6_17{position: absolute; margin-top: 4233px; margin-left: 175px;}
+.sub_6_18{position: absolute; margin-top: 4262px; margin-left: 16px;}
+.sub_6_19{position: absolute; margin-top: 4566px; margin-left: 16px;}
+
+/**---서브 7---**/
+.sub7_wrap{width: 430px; height: 2850px;}
+
+.sub_7{position: absolute;}
+
+.sub_7_1{position: absolute; margin-top: 421px; margin-left: 66px;}
+.sub_7_2{position: absolute; margin-top: 534px; margin-left: 17px;}
+.sub_7_3{position: absolute; margin-top: 839px; margin-left: 15px;}
+.sub_7_4{position: absolute; margin-top: 1148px; margin-left: 156px;}
+.sub_7_5{position: absolute; margin-top: 1241px; margin-left: 15px;}
+.sub_7_6{position: absolute; margin-top: 1510px; margin-left: 156px;}
+.sub_7_7{position: absolute; margin-top: 1604px; margin-left: 172px;}
+.sub_7_8{position: absolute; margin-top: 1650px; margin-left: 15px;}
+.sub_7_9{position: absolute; margin-top: 1938px; margin-left: 15px;}
+.sub_7_10{position: absolute; margin-top: 2226px; margin-left: 15px;}
+.sub_7_11{position: absolute; margin-top: 2515px; margin-left: 15px;}
+
+/**---서브 8---**/
+.sub8_wrap{width: 430px; height: 2831px;}
+
+.sub_8{position: absolute;}
+
+.sub_8_1{position: absolute; margin-top: 370px; margin-left: 82px;}
+.sub_8_2{position: absolute; margin-top: 483px; margin-left: 15px;}
+.sub_8_3{position: absolute; margin-top: 783px; margin-left: 156px;}
+.sub_8_4{position: absolute; margin-top: 855px; margin-left: 15px;}
+.sub_8_5{position: absolute; margin-top: 1156px; margin-left: 156px;}
+.sub_8_6{position: absolute; margin-top: 1260px; margin-left: 106px;}
+.sub_8_7{position: absolute; margin-top: 1352px; margin-left: 15px;}
+.sub_8_8{position: absolute; margin-top: 1640px; margin-left: 15px;}
+.sub_8_9{position: absolute; margin-top: 1929px; margin-left: 15px;}
+.sub_8_10{position: absolute; margin-top: 2216px; margin-left: 15px;}
+.sub_8_11{position: absolute; margin-top: 2503px; margin-left: 15px;}
+
+/**---서브 9---**/
+.sub9_wrap{width: 430px; height: 2821px;}
+
+.sub_9{position: absolute;}
+
+.sub_9_1{position: absolute; margin-top: 421px; margin-left: 61px;}
+.sub_9_2{position: absolute; margin-top: 552px; margin-left: 58.78px;}
+.sub_9_3{position: absolute; margin-top: 771.18px; margin-left: 46.04px;}
+.sub_9_4{position: absolute; margin-top: 871px; margin-left: 42px;}
+.sub_9_5{position: absolute; margin-top: 1020px; margin-left: 15px;}
+.sub_9_6{position: absolute; margin-top: 1045px; margin-left: 15px;}
+.sub_9_7{position: absolute; margin-top: 1298px; margin-left: 15px;}
+.sub_9_8{position: absolute; margin-top: 1323px; margin-left: 15px;}
+.sub_9_9{position: absolute; margin-top: 1605px; margin-left: 15px;}
+.sub_9_10{position: absolute; margin-top: 1917px; margin-left: 15px;}
+.sub_9_11{position: absolute; margin-top: 1942px; margin-left: 15px;}
+.sub_9_12{position: absolute; margin-top: 2202px; margin-left: 15px;}
+.sub_9_13{position: absolute; margin-top: 2492px; margin-left: 15px;}
+.sub_9_14{position: absolute; margin-top: 2517px; margin-left: 15px;}
