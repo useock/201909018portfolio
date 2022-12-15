@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/**---전 항목 공통---**/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+}
+section{
+    z-index: 1;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+/**---네비게이션 적용(공통)---**/
+nav{
+    width: 100%;
+    height: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+.nav_1{
+    width: 624px;
+    height: 121px;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    display: flex;
+}
+.navbox{
+    top: -46px;
+    width: 624px;
+    height: 167px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 29px;
+    position: absolute;
+    opacity: 0.65;
+}
+.prev{
+    position: absolute;
+    margin-left: 43px;
+    margin-top: 54px;
+}
+.navlogo{
+    position: absolute;
+    margin-left: 203px;
+    margin-top: 31px;
+}
+.next{
+    position: absolute;
+    margin-left: 516.7px;
+    margin-top: 54px;
+}
+
+/**---푸터---**/
+footer{
+    width: 100%;
+    height: 156px;
+    background-color: #EEF6EE;
+    display: flex;
+    justify-content: center;
+}
+.ftbox{
+    width: 1920px;
+    height: 156px;
+}
+.ftlogo{
+    margin-top: 45px;
+    margin-left: 851px;
+}
+
+/**---인트로 콘텐츠---**/
+.fsbox1{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.fsbg{
+    background-image: url(img/fsbg.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fsbg_1{
+    width: 1920px;
+    height: 1080px;
+}
+.fscon1{
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 81px;
+}
+.fscon2{
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 1675px;
+}
+.fscon3{
+    position: absolute;
+    margin-top: 979px;
+    margin-left: 81px;  
+}
+.fslogo{
+    position: absolute;
+    margin-top: 377px;
+    margin-left: 569px;
+}
+.fsin{
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 870px;
+}
+
+/**---메인 콘텐츠---**/
+.in{
+    width: 1920px;
+    height: 100%;
+}
+.in_1{
+    width: 1920px;
+    height: 1080px;
+}
+.inbg{
+    position: absolute;    
+}
+.incon_1{
+    position: absolute;
+    margin-top: 515px;
+    margin-left: 600px;
+}
+.intx_1{
+    width: 650px;
+    height: 85px;
+    margin-top: 418px;
+    margin-left: 920px;
+    position: absolute;
+}
+.intx_1_1{
+    left: 0px;
+    width: 630px;
+    text-align: right;
+    font: normal normal bold 24px/50px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.intx_1_2{  
+    left: 418px;
+    width: 210px;
+    text-align: right;
+    font: normal normal normal 24px/50px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.intx_1_3{
+    position: absolute;
+    margin-top: 945px;
+    margin-left: 388px;
+}
+
+.in_2{
+    width: 1920px;
+    height: 1080px;
+}
+.introtx1{
+    position: absolute;
+    margin-left: 388px;
+    margin-top: 231px;
+}
+.introtx2{
+    position: absolute;
+    margin-left: 388px;
+    margin-top: 383px;
+}
+.introtx3{
+    position: absolute;
+    margin-left: 388px;
+    margin-top: 507px;
+}
+.introtx4{
+    position: absolute;
+    margin-left: 388px;
+    margin-top: 666px;
+}
+.introtx5{
+    position: absolute;
+    margin-left: 388px;
+    margin-top: 825px;
+}
+.introtx6{
+    position: absolute;
+    margin-left: 1182px;
+    margin-top: 582px;
+}
+.introtx7{
+    position: absolute;
+    margin-left: 1182px;
+    margin-top: 706px;
+}
+.profi{
+    position: absolute;
+    margin-left: 1182px;
+    margin-top: 231px;
+}
+
+.in_3{
+    width: 1920px;
+    height: 1920px;
+    justify-content: center;
+}
+.in_3_1{
+    display: flex;
+}
+.in_3_2{
+    display: flex;
+}
+.in_3_3{
+    display: flex;
+}
+.in_1_1{
+    width: 640px;
+    height: 640px;
+}
+.in_1_2{
+    width: 640px;
+    height: 640px;
+}
+.in_1_3{
+    width: 640px;
+    height: 640px;
+}
+.in_1_4{
+    width: 640px;
+    height: 640px;
+}
+.in_1_5{
+    width: 640px;
+    height: 640px;
+}
+.in_1_6{
+    width: 640px;
+    height: 640px;
+}
+.in_1_7{
+    width: 640px;
+    height: 640px;
+}
+.in_1_8{
+    width: 640px;
+    height: 640px;
+}
+.in_1_9{
+    width: 640px;
+    height: 640px;
+}
+.black_1{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+}
+.black_1_1 {
+    width: 640px;
+    height: 640px;
+    background-color: #000000;
+    opacity: 0.7;
+    transition-duration: 0.4s;
+}
+.black_1_1:hover {
+    opacity: 0.1;
+    transition-duration: 0.4s;
+}
+
+
+
+.incon1{
+    display: flex;
+    position: absolute;
+    z-index: 10;
+}
+.incon1_1{
+    margin-top: 235px;
+    margin-left: 239px;
+    position: absolute;
+}
+.incon1_2{
+    margin-top: 235px;
+    margin-left: 862px;
+    position: absolute;
+}
+.incon1_3{
+    margin-top: 235px;
+    margin-left: 1511px;
+    position: absolute;
+}
+.incon1_4{
+    margin-top: 231px;
+    margin-left: 239px;
+    position: absolute;
+}
+.incon1_5{
+    margin-top: 235px;
+    margin-left: 795px;
+    position: absolute;
+}
+.incon1_6{
+    margin-top: 235px;
+    margin-left: 1435px;
+    position: absolute;
+}
+.incon1_7{
+    margin-top: 235px;
+    margin-left: 210px;
+    position: absolute;
+}
+.incon1_8{
+    margin-top: 235px;
+    margin-left: 854px;
+    position: absolute;
+}
+.incon1_9{
+    margin-top: 235px;
+    margin-left: 1474px;
+    position: absolute;
+}
+
+/**---서브1 콘텐츠---**/
+.conb1{
+    width: 1920px;
+    height: 1080px;
+}
+.conb1_1{
+    width: 1920px;
+    height: 264px;
+}
+.con_1{
+    margin-top: 90px;
+    margin-left: 782px;
+}
+.conb1_2{
+    width: 1920px;
+    height: 6670px;
+}
+
+/**---서브2 콘텐츠---**/
+.conb2{
+    width: 1920px;
+    height: 1080px;
+}
+.conb2_1{
+    width: 1920px;
+    height: 5800px;
+}
+.con2_1{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 881px;
+}
+.con2_2{
+    position: absolute;
+    margin-top: 264px;
+}
+.con2_3{
+    position: absolute;
+    margin-top: 1544px;
+    margin-left: 753px;
+}
+.con2_4{
+    position: absolute;
+    margin-top: 1719px;
+    margin-left: 388px;
+}
+.con2_5{
+    position: absolute;
+    margin-top: 3148px;
+    margin-left: 782px;
+}
+.con2_6{
+    position: absolute;
+    margin-top: 3323px;
+    margin-left: 338px;
+}
+.con2_7{
+    position: absolute;
+    margin-top: 4752px;
+    margin-left: 725px;
+}
+.con2_8{
+    position: absolute;
+    margin-top: 4927px;
+    margin-left: 388px;
+}
+
+/**---서브3 콘텐츠---**/
+.conb3{
+    width: 1920px;
+    height: 1080px;
+}
+.conb3_1{
+    width: 1920px;
+    height: 6097px;
+}
+.con3_1{position: absolute; margin-top: 90px; margin-left: 835px;}
+.con3_2{position: absolute; margin-top: 234px; margin-left: 554px;}
+.con3_3{position: absolute; margin-top: 586px; margin-left: 943px;}
+.con3_4{position: absolute; margin-top: 758px; margin-left: 388px;}
+.con3_5{position: absolute; margin-top: 1490px; margin-left: 388px;}
+.con3_6{position: absolute; margin-top: 1616px; margin-left: 388px;}
+.con3_7{position: absolute; margin-top: 2224px; margin-left: 388px;}
+.con3_8{position: absolute; margin-top: 2436px; margin-left: 603px;}
+.con3_9{position: absolute; margin-top: 2591px; margin-left: 344px;}
+.con3_10{position: absolute; margin-top: 3342px; margin-left: 661px;}
+.con3_11{position: absolute; margin-top: 3497px; margin-left: 344px;}
+.con3_12{position: absolute; margin-top: 4248px; margin-left: 606px;}
+.con3_13{position: absolute; margin-top: 4403px; margin-left: 344px;}
+.con3_14{position: absolute; margin-top: 5154px; margin-left: 753px;}
+.con3_15{position: absolute; margin-top: 5309px; margin-left: 344px;}
+
+/**---서브4 콘텐츠---**/
+.conb4{
+    width: 1920px;
+    height: 1080px;
+}
+.conb4_1{
+    width: 1920px;
+    height: 6963px;
+}
+.con4_1{position: absolute; margin-top: 90px; margin-left: 699px;}
+.con4_2{position: absolute; margin-top: 290.2px; margin-left: 607.1px;}
+.con4_3{position: absolute; margin-top: 552px; margin-left: 824px;}
+.con4_4{position: absolute; margin-top: 758px; margin-left: 388px;}
+.con4_5{position: absolute; margin-top: 1490px; margin-left: 388px;}
+.con4_6{position: absolute; margin-top: 1616px; margin-left: 388px;}
+.con4_7{position: absolute; margin-top: 2224px; margin-left: 388px;}
+.con4_8{position: absolute; margin-top: 2350px; margin-left: 388px;}
+.con4_9{position: absolute; margin-top: 3098px; margin-left: 388px;}
+.con4_10{position: absolute; margin-top: 3283px; margin-left: 833px;}
+.con4_11{position: absolute; margin-top: 3431px; margin-left: 344px;}
+.con4_12{position: absolute; margin-top: 4189px; margin-left: 870px;}
+.con4_13{position: absolute; margin-top: 4337px; margin-left: 344px;}
+.con4_14{position: absolute; margin-top: 5095px; margin-left: 870px;}
+.con4_15{position: absolute; margin-top: 5243px; margin-left: 344px;}
+.con4_16{position: absolute; margin-top: 6001px; margin-left: 870px;}
+.con4_17{position: absolute; margin-top: 6149px; margin-left: 344px;}
+
+/**---서브5 콘텐츠---**/
+.conb5{
+    width: 1920px;
+    height: 1080px;
+}
+.conb5_1{
+    width: 1920px;
+    height: 5585px;
+}
+.con5_1{position: absolute; margin-top: 90px; margin-left: 707px;}
+.con5_2{position: absolute; margin-top: 245px; margin-left: 734px;}
+.con5_3{position: absolute; margin-top: 794px; margin-left: 676px;}
+.con5_4{position: absolute; margin-top: 987px; margin-left: 388px;}
+.con5_5{position: absolute; margin-top: 987px; margin-left: 1099px;}
+.con5_6{position: absolute; margin-top: 1760px; margin-left: 620px;}
+.con5_7{position: absolute; margin-top: 1760px; margin-left: 948px;}
+.con5_8{position: absolute; margin-top: 3239px; margin-left: 834px;}
+.con5_9{position: absolute; margin-top: 3343px; margin-left: 388px;}
+.con5_10{position: absolute; margin-top: 4437px; margin-left: 833px;}
+.con5_11{position: absolute; margin-top: 4536px; margin-left: 549px;}
+
+/**---서브6 콘텐츠---**/
+.conb6{
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+}
+.conb6_1{
+    width: 1920px;
+    height: 7180px;
+}
+.con6_1_1{
+    
+}
+.con6_1_2{
+    position: absolute;
+    margin-top: 452px;
+    margin-left: 488px;
+}
+.con6_1{position: absolute; margin-top: 99px; margin-left: 388.5px;}
+.con6_2{position: absolute; margin-top: 248px; margin-left: 485px;}
+.con6_3{position: absolute; margin-top: 525px; margin-left: 646px;}
+.con6_4{position: absolute; margin-top: 629px; margin-left: 586px;}
+.con6_5{position: absolute; margin-top: 858px; margin-left: 470px; z-index: 8;}
+.con6_6{position: absolute; margin-top: 1186px; margin-left: 388px;}
+.con6_7{position: absolute; margin-top: 1574px; margin-left: 388.5px;}
+.con6_8{position: absolute; margin-top: 1724px; margin-left: 388px;}
+.con6_9{position: absolute; margin-top: 2405px; margin-left: 847px;}
+.con6_10{position: absolute; margin-top: 2562px; margin-left: 597px;}
+.con6_11{position: absolute; margin-top: 3131px; margin-left: 647px;}
+.con6_12{position: absolute; margin-top: 3321px; margin-left: 897px;}
+.con6_13{position: absolute; margin-top: 3388px; margin-left: 388px;}
+.con6_14{position: absolute; margin-top: 4263px; margin-left: 388px;}
+.con6_15{position: absolute; margin-top: 5259px; margin-left: 811px;}
+.con6_16{position: absolute; margin-top: 5383px; margin-left: 388px;}
+.con6_17{position: absolute; margin-top: 6258px; margin-left: 388px;}
+.con6_line{
+    background-color: #708AAA;
+    width: 1920px;
+    height: 242px;
+    position: absolute;
+    margin-top: 860px;
+    z-index: 2;
+}
+
+/**---서브7 콘텐츠---**/
+.conb7{
+    width: 1920px;
+    height: 1080px;
+}
+.conb7_1{
+    width: 1920px;
+    height: 5673px;
+}
+.con7_1{position: absolute; margin-top: 90px; margin-left: 762px;}
+.con7_2{position: absolute; margin-top: 238px; margin-left: 388px;}
+.con7_3{position: absolute; margin-top: 770px; margin-left: 1232px;}
+.con7_4{position: absolute; margin-top: 890px; margin-left: 728px;}
+.con7_5{position: absolute; margin-top: 1583px; margin-left: 870px;}
+.con7_6{position: absolute; margin-top: 1663px; margin-left: 496px;}
+.con7_7{position: absolute; margin-top: 2356px; margin-left: 904px;}
+.con7_8{position: absolute; margin-top: 2545px; margin-left: 441px;}
+.con7_9{position: absolute; margin-top: 3294px; margin-left: 441px;}
+.con7_10{position: absolute; margin-top: 4043px; margin-left: 441px;}
+.con7_11{position: absolute; margin-top: 4791px; margin-left: 441px;}
+
+/**---서브8 콘텐츠---**/
+.conb8{
+    width: 1920px;
+    height: 1080px;
+}
+.conb8_1{
+    width: 1920px;
+    height: 6355px;
+}
+.con8_1{position: absolute; margin-top: 90px; margin-left: 681px;}
+.con8_2{position: absolute; margin-top: 283px; margin-left: 388px;}
+.con8_3{position: absolute; margin-top: 1146px; margin-left: 746px;}
+.con8_4{position: absolute; margin-top: 1282px; margin-left: 388px;}
+.con8_5{position: absolute; margin-top: 2145px; margin-left: 794px;}
+.con8_6{position: absolute; margin-top: 2336px; margin-left: 815px;}
+.con8_7{position: absolute; margin-top: 2502px; margin-left: 441px;}
+.con8_8{position: absolute; margin-top: 3251px; margin-left: 441px;}
+.con8_9{position: absolute; margin-top: 4000px; margin-left: 441px;}
+.con8_10{position: absolute; margin-top: 4748px; margin-left: 441px;}
+.con8_11{position: absolute; margin-top: 5496px; margin-left: 441px;}
+
+/**---서브9 콘텐츠---**/
+.conb9{
+    width: 1920px;
+    height: 1080px;
+}
+.conb9_1{
+    width: 1920px;
+    height: 4538px;
+}
+.con9_1{position: absolute; margin-top: 90px; margin-left: 755px;}
+.con9_2{position: absolute; margin-top: 275px; margin-left: 475px;}
+.con9_3{position: absolute; margin-top: 619.7px; margin-left: 475px;}
+.con9_4{position: absolute; margin-top: 619.4px; margin-left: 1059px;}
+.con9_5{position: absolute; margin-top: 920px; margin-left: 388px;}
+.con9_6{position: absolute; margin-top: 965px; margin-left: 388px;}
+.con9_7{position: absolute; margin-top: 1610px; margin-left: 1422px;}
+.con9_8{position: absolute; margin-top: 1656px; margin-left: 388px;}
+.con9_9{position: absolute; margin-top: 1656px; margin-left: 971px;}
+.con9_10{position: absolute; margin-top: 2190px; margin-left: 443px;}
+.con9_11{position: absolute; margin-top: 2240px; margin-left: 443px;}
+.con9_12{position: absolute; margin-top: 2943px; margin-left: 443px;}
+.con9_13{position: absolute; margin-top: 2993px; margin-left: 443px;}
+.con9_14{position: absolute; margin-top: 3696px; margin-left: 443px;}
+.con9_15{position: absolute; margin-top: 3746px; margin-left: 443px;}
